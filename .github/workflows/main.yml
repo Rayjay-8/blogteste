@@ -1,0 +1,10 @@
+# .github/workflows/mkpreview.yml
+name: mkpreview deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS -X POST "${{ secrets.MKPREVIEW_WEBHOOK_URL }}"
