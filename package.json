@@ -1,0 +1,14 @@
+{
+  "name": "blogteste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Rayjay-8/blogteste.git",
+  "author": "rayjay-8 <rayarruda9876@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serve -d . -p 5000"
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}
