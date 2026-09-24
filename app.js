@@ -178,3 +178,6 @@ function initHomePage() {
 if (document.getElementById('posts-list')) {
   initHomePage();
 }
+
+
+document.querySelector(`#app > div > div > div > div.px-0.py-3.flex.justify-center > a`).remove()
